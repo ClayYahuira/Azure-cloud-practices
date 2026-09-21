@@ -1,0 +1,6 @@
+@Az_app_service_HostAddress = http://localhost:5053
+
+GET {{Az_app_service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
