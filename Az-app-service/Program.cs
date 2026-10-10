@@ -15,6 +15,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.MapHealthChecks("/health");
+app.MapGet("/version", (IConfiguration c) => Results.Ok(new { version = c["APP_VERSION"] ?? "unset" }));
 
 var summaries = new[]
 {
