@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-source "$(dirname "$0")/variables.sh"
+source "$(dirname "$0")/../variables.sh"
 
 AUTOSCALE_NAME="autoscale-plan"
 PLAN_ID=$(az appservice plan show --name "$PLAN" --resource-group "$RG" --query "id" -o tsv)

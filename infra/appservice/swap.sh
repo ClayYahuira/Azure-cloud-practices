@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-source "$(dirname "$0")/variables.sh"
+source "$(dirname "$0")/../variables.sh"
 
 SLOT="staging"
 echo ">> swapping $SLOT -> production"

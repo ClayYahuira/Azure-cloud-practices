@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
-source "$(dirname "$0")/variables.sh"
+source "$(dirname "$0")/../variables.sh"
 
 SLOT="staging"
-API_DIR="$(dirname "$0")/.."
+API_DIR="$(dirname "$0")/../../src/RealFriends.Api"
 
 # 1. Make sure the staging slot exists
 if ! az webapp deployment slot list -g "$RG" -n "$APP" --query "[?name=='$SLOT'].name" -o tsv | grep -q .; then

@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Az-app-service", "Az-app-service\Az-app-service.csproj", "{8295EDA0-40EB-4E25-BECC-AB789317629C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealFriends.Api", "src\RealFriends.Api\RealFriends.Api.csproj", "{8295EDA0-40EB-4E25-BECC-AB789317629C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

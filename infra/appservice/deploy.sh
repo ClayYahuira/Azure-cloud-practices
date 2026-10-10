@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
-source "$(dirname "$0")/variables.sh"
-API_DIR="$(dirname "$0")/.."
+source "$(dirname "$0")/../variables.sh"
+API_DIR="$(dirname "$0")/../../src/RealFriends.Api"
 
 echo ">> cleaning old artifacts"
 rm -rf "$API_DIR/publish" "$API_DIR/app.zip"
